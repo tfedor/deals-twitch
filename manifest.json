@@ -1,11 +1,9 @@
 {
   "name": "Game Prices for Twitch",
   "version": "1.0.0",
-  "description": "Adds pricing info for Twitch",
+  "description": "Adds pricing info from IsThereAnyDeal to Twitch",
   "manifest_version": 2,
-  "permissions": [
-    "*://*.twitch.tv/*"
-  ],
+  "permissions": [],
   "web_accessible_resources": [
     "img/*.png",
     "img/*.gif",
