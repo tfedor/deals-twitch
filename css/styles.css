@@ -1,0 +1,26 @@
+.itad-container {
+  display: inline-block;
+  margin-left: 16px
+}
+
+.itad-box {
+  margin-left: 8px;
+}
+
+.itad-img {
+  height: 16px;
+  display: inline-block;
+  position: relative;
+  top: 3px;
+}
+
+.itad-box__title {
+  font-weight: bold;
+}
+
+.itad-box__subtitle {
+}
+
+.itad-box__cta {
+}
+

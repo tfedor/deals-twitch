@@ -1,0 +1,42 @@
+{
+  "name": "Game Prices for Twitch",
+  "version": "1.0.0",
+  "description": "Adds pricing info for Twitch",
+  "manifest_version": 2,
+  "permissions": [
+    "*://*.twitch.tv/*"
+  ],
+  "web_accessible_resources": [
+    "img/*.png",
+    "img/*.gif",
+    "img/*.jpg",
+    "img/*.svg",
+    "css/*.css",
+    "img/*/*.png"
+  ],
+  "homepage_url": "https://isthereanydeal.com/",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.twitch.tv/*"
+      ],
+      "js": [
+        "js/lib/DOMPurify/purify.js",
+        "js/config.js",
+        "js/core.js",
+        "js/content/content.js"
+      ],
+      "css": [
+        "css/styles.css"
+      ]
+    }
+  ],
+  "background": {
+    "scripts": [
+      "js/lib/DOMPurify/purify.js",
+      "js/config.js",
+      "js/core.js",
+      "js/background/background.js"
+    ]
+  }
+}
